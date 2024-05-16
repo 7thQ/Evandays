@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D11A5122BBC9726005B2268 /* hosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11A5112BBC9726005B2268 /* hosting.swift */; };
 		6D8AB4FC2BA13A6C00D7695D /* EvandaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8AB4FB2BA13A6C00D7695D /* EvandaysApp.swift */; };
 		6D8AB4FE2BA13A6C00D7695D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8AB4FD2BA13A6C00D7695D /* ContentView.swift */; };
 		6D8AB5002BA13A7100D7695D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8AB4FF2BA13A7100D7695D /* Assets.xcassets */; };
@@ -69,9 +70,11 @@
 		6D8AB5B52BA266E900D7695D /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8AB5AF2BA266E900D7695D /* VideoView.swift */; };
 		6D8AB5B62BA266E900D7695D /* ParcelAnnotationTextContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8AB5B12BA266E900D7695D /* ParcelAnnotationTextContent.swift */; };
 		6D8AB5B92BA267D800D7695D /* CameraXPN in Frameworks */ = {isa = PBXBuildFile; productRef = 6D8AB5B82BA267D800D7695D /* CameraXPN */; };
+		6DB110AC2BD72A2D00E10709 /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB110AB2BD72A2D00E10709 /* loginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D11A5112BBC9726005B2268 /* hosting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hosting.swift; sourceTree = "<group>"; };
 		6D8AB4F82BA13A6C00D7695D /* Evandays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evandays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8AB4FB2BA13A6C00D7695D /* EvandaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvandaysApp.swift; sourceTree = "<group>"; };
 		6D8AB4FD2BA13A6C00D7695D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +137,7 @@
 		6D8AB5AD2BA266E900D7695D /* ParcelMapAnnotationVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelMapAnnotationVideoView.swift; sourceTree = "<group>"; };
 		6D8AB5AF2BA266E900D7695D /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		6D8AB5B12BA266E900D7695D /* ParcelAnnotationTextContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelAnnotationTextContent.swift; sourceTree = "<group>"; };
+		6DB110AB2BD72A2D00E10709 /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D11A5102BBC969E005B2268 /* dataStructers */ = {
+			isa = PBXGroup;
+			children = (
+				6D11A5112BBC9726005B2268 /* hosting.swift */,
+			);
+			path = dataStructers;
+			sourceTree = "<group>";
+		};
 		6D8AB4EF2BA13A6C00D7695D = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +180,7 @@
 		6D8AB4FA2BA13A6C00D7695D /* Evandays */ = {
 			isa = PBXGroup;
 			children = (
+				6D11A5102BBC969E005B2268 /* dataStructers */,
 				6D8AB5B32BA266E900D7695D /* Videos */,
 				6D8AB5AB2BA266E200D7695D /* Resources */,
 				6D8AB5962BA266DC00D7695D /* SwiftUIExamples */,
@@ -280,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				6D8AB57C2BA266D800D7695D /* LoginView.swift */,
+				6DB110AB2BD72A2D00E10709 /* loginModel.swift */,
 				6D8AB57D2BA266D800D7695D /* SignUpView.swift */,
 			);
 			path = loginView;
@@ -488,10 +502,12 @@
 				6D8AB5A12BA266DC00D7695D /* WeatherAnnotationExample.swift in Sources */,
 				6D8AB5782BA266D300D7695D /* memoTabs.swift in Sources */,
 				6D8AB4FE2BA13A6C00D7695D /* ContentView.swift in Sources */,
+				6DB110AC2BD72A2D00E10709 /* loginModel.swift in Sources */,
 				6D8AB5472BA263E000D7695D /* MessagesDisplayWidget.swift in Sources */,
 				6D8AB5532BA263E000D7695D /* MockData.swift in Sources */,
 				6D8AB5672BA266CE00D7695D /* PostView.swift in Sources */,
 				6D8AB5492BA263E000D7695D /* ProfileContentWidget.swift in Sources */,
+				6D11A5122BBC9726005B2268 /* hosting.swift in Sources */,
 				6D8AB5B52BA266E900D7695D /* VideoView.swift in Sources */,
 				6D8AB57F2BA266D800D7695D /* LoginView.swift in Sources */,
 				6D8AB5A02BA266DC00D7695D /* ViewExtensions.swift in Sources */,
@@ -649,7 +665,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -682,7 +698,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

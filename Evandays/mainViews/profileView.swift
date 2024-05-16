@@ -2,6 +2,7 @@
 
 import SwiftUI
 struct profileView: View {
+    @AppStorage("isLoggedIn") var isLoggedIn: String = ""
 
     var body: some View {
 //        NavigationView {

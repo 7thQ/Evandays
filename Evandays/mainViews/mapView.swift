@@ -53,6 +53,7 @@ struct mapView: View {
                             showDetails.toggle() // Show the sheet when the annotation is tapped
                         }) {
                             VStack {
+                                Text("hello")
                             
 
                             }
@@ -74,6 +75,7 @@ struct mapView: View {
                             showDetails.toggle() // Show the sheet when the annotation is tapped
                         }) {
                             VStack {
+                                Text("hello")
                                
 
                             }
@@ -95,6 +97,7 @@ struct mapView: View {
                             showDetails.toggle() // Show the sheet when the annotation is tapped
                         }) {
                             VStack {
+                                Text("hello")
                             
 
                             }
@@ -137,6 +140,7 @@ struct mapView: View {
                             showDetails.toggle() // Show the sheet when the annotation is tapped
                         }) {
                             VStack {
+                                Text("hello")
                                
 
                             }

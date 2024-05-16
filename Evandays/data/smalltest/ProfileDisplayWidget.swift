@@ -54,6 +54,7 @@ struct AnnotationProfileDisplayWidget: View {
 }
 
 struct ProfileDisplayWidget: View {
+    @AppStorage("username") var username: String = ""
     var body: some View {
 
         ZStack{
@@ -67,7 +68,7 @@ struct ProfileDisplayWidget: View {
                     .foregroundColor(.white)
                     .padding(.top, 60)
                 
-                Text("Username") // Replace with the actual username
+                Text("\(username)") // Replace with the actual username
                     .font(.headline)
                     .fontWeight(.bold)
                     .foregroundColor(.white)

@@ -19,6 +19,7 @@ struct cameraView: View {
 
                 
             }, font: .subheadline, permissionMessgae: "Permission Denied", useMediaContent: "0")
+            
  
             VStack {
                 Spacer()

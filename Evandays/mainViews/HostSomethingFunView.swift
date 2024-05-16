@@ -140,7 +140,7 @@ struct EventSubmissionView: View {
         }
     }
     func submitEvent() {
-        guard let url = URL(string: "http://172.20.10.5:3000/create-events") else { return }
+        guard let url = URL(string: "http://192.168.1.22:3000/create-events") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")

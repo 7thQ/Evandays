@@ -62,7 +62,7 @@ struct ViewportPlayground: View {
                 ViewportMenu(viewport: $viewport)
             }
         }
-    }
+    }// end of body
 
     private var additionalBottomSafeArea: CGFloat {
         additionalSafeArea ? settingsHeight : 0
@@ -105,7 +105,13 @@ struct ViewportPlayground: View {
         }
         return "default"
     }
-}
+}// end of struct
+
+
+
+
+
+
 
 @available(iOS 13.0, *)
 private struct MiniToggle: View {

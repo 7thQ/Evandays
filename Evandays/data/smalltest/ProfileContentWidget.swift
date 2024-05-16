@@ -22,8 +22,6 @@
 
 import SwiftUI
 
-
-
 struct PostsView: View {
     var body: some View {
         NavigationView {
@@ -49,7 +47,7 @@ struct PostsView: View {
             .navigationTitle("Posts") // Set the navigation bar title
            
         }
-        .frame(height: 590) 
+        .frame(height: 590)
         .padding(6)
         .cornerRadius(40)
         .background(Color.white)
@@ -59,6 +57,31 @@ struct PostsView: View {
         
     }
 }
+
+
+//struct PostsView: View {
+//    var body: some View {
+//        NavigationView {
+//            List {
+//                // Loop to create multiple rows
+//
+//              
+//               
+//            }
+//            
+//            .navigationTitle("Posts") // Set the navigation bar title
+//           
+//        }
+//        .frame(height: 590) 
+//        .padding(6)
+//        .cornerRadius(40)
+//        .background(Color.white)
+//        .padding(5)
+//        .cornerRadius(30)
+//        
+//        
+//    }
+//}
 
 
 #Preview {

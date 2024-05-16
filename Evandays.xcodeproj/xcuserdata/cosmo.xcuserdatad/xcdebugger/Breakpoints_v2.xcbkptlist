@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B1AC274E-D31E-4332-B4C2-7F4039DD970A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2F9576A-F96C-49C2-A854-9508002A6CD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Evandays/mainViews/profileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A2F9576A-F96C-49C2-A854-9508002A6CD0 - 31c9f20f5d4219ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Evandays.profileView.body.getter : some"
+                  moduleName = "Evandays"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cosmo/Desktop/projects/Evandays/Evandays/mainViews/profileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9">
+               </Location>
+               <Location
+                  uuid = "A2F9576A-F96C-49C2-A854-9508002A6CD0 - b42bd01789892f37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Evandays.profileView.body.getter : some"
+                  moduleName = "Evandays"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cosmo/Desktop/projects/Evandays/Evandays/mainViews/profileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
